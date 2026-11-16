@@ -72,6 +72,10 @@ Request:
 
 Response includes `status`, `summary`, `data`, `execution` (CLI, duration, exit code) and `stderr` when relevant.
 
+
+ the architecture of the project follows thsi 
+ <img width="701" height="380" alt="image" src="https://github.com/user-attachments/assets/5bfe11eb-b672-46df-96ac-ea26056816f4" />
+
 ## Security and limits
 - The backend invokes a fixed Python script with an argument array and `shell: false`.
 - Only HTTP(S) public URLs are accepted. Localhost, private, loopback, link-local and reserved IP destinations are blocked.
